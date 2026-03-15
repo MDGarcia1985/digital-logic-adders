@@ -32,7 +32,7 @@ apio.ini                   # APIO build config (target: iCEstick)
 | HalfAdder | `Verilog/RegisterTransferLevel/HalfAdder.v` |
 | FullAdder | `Verilog/RegisterTransferLevel/FullAdder.v` |
 | TwoBitAdder | `Verilog/RegisterTransferLevel/TwoBitAdder.v` |
-| FourBitRippleAdder | `Verilog/RegisterTransferLevel/FoutBitAdder.v` |
+| FourBitRippleAdder | `Verilog/RegisterTransferLevel/FourBitRippleAdder.v` |
 
 ## Simulation
 
