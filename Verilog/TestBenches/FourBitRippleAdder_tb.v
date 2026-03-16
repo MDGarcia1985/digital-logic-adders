@@ -32,14 +32,8 @@ License:     MIT
 
 module FourBitRippleAdder_tb;
 
-reg  t_a0;
-reg  t_a1;
-reg  t_a2;
-reg  t_a3;
-reg  t_b0;
-reg  t_b1;
-reg  t_b2;
-reg  t_b3;
+reg  t_a0, t_a1, t_a2, t_a3;
+reg  t_b0, t_b1, t_b2, t_b3;
 
 wire t_s0;
 wire t_s1;
@@ -57,18 +51,9 @@ localparam DURATION = 1300;
 
 FourBitRippleAdder deviceUnderTest
 (
-    .a0(t_a0),
-    .a1(t_a1),
-    .a2(t_a2),
-    .a3(t_a3),
-    .b0(t_b0),
-    .b1(t_b1),
-    .b2(t_b2),
-    .b3(t_b3),
-    .s0(t_s0),
-    .s1(t_s1),
-    .s2(t_s2),
-    .s3(t_s3),
+    .a0(t_a0), .a1(t_a1), .a2(t_a2), .a3(t_a3),
+    .b0(t_b0), .b1(t_b1), .b2(t_b2), .b3(t_b3),
+    .s0(t_s0), .s1(t_s1), .s2(t_s2), .s3(t_s3),
     .c4(t_c4)
 );
 
@@ -103,14 +88,8 @@ begin
     end
 
     // Inputs return to zero so the waveform ends in a known state.
-    t_a0 = 1'b0;
-    t_a1 = 1'b0;
-    t_a2 = 1'b0;
-    t_a3 = 1'b0;
-    t_b0 = 1'b0;
-    t_b1 = 1'b0;
-    t_b2 = 1'b0;
-    t_b3 = 1'b0;
+    t_a0 = 1'b0; t_a1 = 1'b0; t_a2 = 1'b0; t_a3 = 1'b0;
+    t_b0 = 1'b0; t_b1 = 1'b0; t_b2 = 1'b0; t_b3 = 1'b0;
 end
 
 

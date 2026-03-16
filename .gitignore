@@ -1,0 +1,11 @@
+# Simulation artifacts
+*.vcd
+*.vvp
+sim
+
+# APIO build output
+_build/
+
+# OS artifacts
+.DS_Store
+Thumbs.db

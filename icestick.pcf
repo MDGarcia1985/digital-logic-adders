@@ -1,0 +1,27 @@
+# iCEstick Pin Constraints
+# Target: Lattice iCEstick Evaluation Kit (iCE40HX1K-TQ144)
+#
+# Operand A inputs are mapped to PMOD pins on J1.
+# Operand B inputs are mapped to PMOD pins on J2.
+# Sum outputs and carry-out are mapped to the five on-board LEDs.
+
+# Operand A — J1 header
+set_io a0  112
+set_io a1  113
+set_io a2  114
+set_io a3  115
+
+# Operand B — J2 header
+set_io b0  78
+set_io b1  79
+set_io b2  80
+set_io b3  81
+
+# Sum outputs — on-board LEDs D1..D4
+set_io s0  99
+set_io s1  98
+set_io s2  97
+set_io s3  96
+
+# Carry output — on-board LED D5
+set_io c4  95
