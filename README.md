@@ -140,6 +140,7 @@ See [Docs/CONTRIBUTING.md](Docs/CONTRIBUTING.md).
 - [Getting Started with Pico PDF](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008276-DS-1-getting-started-with-pico.pdf?disposition=inline)
 - [Raspberry Pi Pico SDK repository (pinned commit)](https://github.com/raspberrypi/pico-sdk/tree/9fdfe110dc2f44cb4c23f49370db45a6689a5a08)
 - [TinyVision pico2-ice learn guide](https://pico2-ice.tinyvision.ai/md_learn.html)
+- [TinyVision pico2-ice getting started guide](https://pico2-ice.tinyvision.ai/md_getting__started.html)
 - [ASIC-World Verilog tutorial](https://www.asic-world.com/verilog/veritut.html)
 - [TinyVision pico2-ice MCU programming guide](https://pico2-ice.tinyvision.ai/md_programming__the__mcu.html)
 
